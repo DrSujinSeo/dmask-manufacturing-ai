@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#222b53">
+  <meta name="description" content="D마스크 제조AI 스마트공장 교육용 사업계획. 성형 불량 조기경보의 구축 방식과 검증 목표를 소개합니다.">
+  <title>D마스크 제조AI 스마트공장 사업계획</title>
+  <style>
+    :root{font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif;color:#222b53;background:#f9fafd}
+    *{box-sizing:border-box}body{margin:0;line-height:1.65}a{color:#31449a}
+    .top{height:10px;background:linear-gradient(90deg,#222b53 17%,#5d9fc5 17%,#5d9fc5)}
+    .wrap{max-width:1160px;margin:auto;padding:0 28px}
+    header{background:#fff}header .wrap{padding-top:20px;padding-bottom:20px;font-weight:700}
+    .hero{background:#fff;overflow:hidden}.hero .wrap{min-height:440px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center;padding-top:48px;padding-bottom:64px}
+    .tag{display:inline-block;border:1px solid #b5c3cf;padding:3px 12px;color:#51657a;font-size:.88rem}
+    h1{font-size:clamp(2.2rem,5vw,4.3rem);line-height:1.19;letter-spacing:-.055em;margin:30px 0 22px}h1 span{color:#31449a}
+    .lead{font-size:1.18rem;color:#4e6073;max-width:630px}
+    .graphic{position:relative;aspect-ratio:1;display:grid;place-items:center;border-radius:50%;background:linear-gradient(145deg,#eaf3f9,#cce1ee);font-size:clamp(5rem,12vw,10rem);color:#31449a}
+    .graphic small{position:absolute;bottom:13%;font-size:1rem;font-weight:700;letter-spacing:.1em}
+    main{padding:54px 0 70px}section{margin-bottom:52px}h2{font-size:1.65rem;margin:0 0 18px;letter-spacing:-.035em}
+    .summary{font-size:1.23rem;font-weight:700;text-align:center;margin:0 auto 42px;max-width:920px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid #d6e1e8;border-top:5px solid #5d9fc5;border-radius:10px;padding:24px;min-height:210px}.card:nth-child(1){border-top-color:#92c33d}.card:nth-child(2){border-top-color:#63a48c}
+    .card h3{font-size:1.12rem;margin:0 0 9px}.card p{margin:0;color:#4e6073}.number{font-size:2.1rem;font-weight:800;color:#31449a;line-height:1.2;margin:8px 0 12px}
+    .timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{padding:21px 24px;background:#fff;border:1px solid #d6e1e8;border-radius:10px}.step strong{color:#31449a}.step p{margin:7px 0 0;color:#4e6073}
+    .notice{background:#222b53;color:#fff;padding:22px 28px;border-radius:8px}.notice strong{font-size:1.2rem}
+    .files{display:flex;flex-wrap:wrap;gap:12px}.files a{display:inline-block;padding:12px 17px;background:#fff;border:1px solid #b8cbd9;border-radius:7px;text-decoration:none;font-weight:700}.files a:hover,.files a:focus-visible{background:#e8f3f9;outline:2px solid #31449a}
+    footer{padding:25px 0;background:#fff;color:#4e6073;font-size:.9rem}
+    @media(max-width:750px){.hero .wrap{grid-template-columns:1fr;min-height:0}.graphic{width:min(280px,75vw);margin:0 auto}.grid,.timeline{grid-template-columns:1fr}.card{min-height:0}}
+  </style>
+</head>
+<body>
+  <div class="top"></div>
+  <header><div class="wrap">D마스크 제조AI 스마트공장 사업계획</div></header>
+  <div class="hero"><div class="wrap">
+    <div><span class="tag">교육용 시뮬레이션</span><h1><span>성형 불량을</span><br>미리 확인하는 제조AI</h1><p class="lead">KF94 마스크 생산 LOT와 설비 이력을 연결해 위험 구간을 알리고, 작업자의 점검과 품질 담당자의 판정으로 이어지는 6개월 구축안입니다.</p></div>
+    <div class="graphic" aria-hidden="true">▥<small>LOT · 설비 · 검사</small></div>
+  </div></div>
+  <main class="wrap">
+    <p class="summary">현재는 검사 후에 불량을 집계합니다. 구축 후에는 경보를 받은 작업자가 해당 LOT를 먼저 점검합니다.</p>
+    <section aria-labelledby="baseline"><h2 id="baseline">착수 전 3개월 기준과 목표</h2><div class="grid">
+      <article class="card"><h3>생산 규모</h3><p class="number">300만 개</p><p>가상 원장의 생산 LOT 6건을 합산한 수량입니다.</p></article>
+      <article class="card"><h3>공정 불량률</h3><p class="number">5.00% → 4.00%</p><p>최초 불량 수량을 총생산량으로 나누어 검증합니다.</p></article>
+      <article class="card"><h3>성형 전력 원단위</h3><p class="number">0.030 → 0.020</p><p>단위는 kWh/개입니다. 기준값은 추정치이며 전용 계량기로 다시 측정합니다.</p></article>
+    </div></section>
+    <section aria-labelledby="schedule"><h2 id="schedule">6개월 구축 일정</h2><div class="timeline">
+      <div class="step"><strong>1~2개월</strong><p>계측 범위와 설비·생산 LOT 연결 기준을 확정합니다.</p></div>
+      <div class="step"><strong>3~4개월</strong><p>생산 이력을 연계하고 조기경보 모델을 시범 적용합니다.</p></div>
+      <div class="step"><strong>5~6개월</strong><p>별도 LOT로 성능을 검증하고 작업자 교육과 인수를 진행합니다.</p></div>
+    </div></section>
+    <section aria-labelledby="effect"><h2 id="effect">예산과 조건부 효과</h2><div class="notice"><strong>총사업비 3억 8,000만 원</strong><br>월 100만 개를 생산하고 두 목표를 모두 달성할 때, 교육용 단가로 월 250만 원의 손실·전력비 감소를 추정합니다. 운영·유지보수비는 반영 전입니다.</div></section>
+    <section aria-labelledby="materials"><h2 id="materials">사업계획 자료</h2><div class="files">
+      <a href="https://github.com/DrSujinSeo/dmask-manufacturing-ai/blob/main/D%EB%A7%88%EC%8A%A4%ED%81%AC_%EC%82%B0%EC%B6%9C%EB%AC%BC/D%EB%A7%88%EC%8A%A4%ED%81%AC_%EC%A0%9C%EC%A1%B0AI_%EC%8A%A4%EB%A7%88%ED%8A%B8%EA%B3%B5%EC%9E%A5_%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D%EC%84%9C_v2.hwpx">사업계획서 v2</a>
+      <a href="https://github.com/DrSujinSeo/dmask-manufacturing-ai/blob/main/D%EB%A7%88%EC%8A%A4%ED%81%AC_%EC%A0%9C%EC%A1%B0AI_%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D%EC%84%9C_3%EC%9E%A5.pptx">발표자료 3장</a>
+      <a href="https://github.com/DrSujinSeo/dmask-manufacturing-ai/blob/main/README.md">자료 목록</a>
+    </div></section>
+  </main>
+  <footer><div class="wrap">2026. 11. 20. · 교육용 사업계획 · 실제 신청 자격과 공식 양식은 해당 회차 원문 확인 대상</div></footer>
+</body>
+</html>
